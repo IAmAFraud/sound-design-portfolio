@@ -1,5 +1,11 @@
+/* Generic Styles */
 body {
     margin: 0;
+}
+
+header {
+    position: sticky;
+    top: 0%;
 }
 
 nav {
@@ -38,4 +44,55 @@ nav a {
 nav p {
     margin: 0;
     padding: 0;
+}
+
+footer {
+    text-align: center;
+    font-size: 2em;
+    height: 3em;
+    background-color: gray;
+}
+
+footer p {
+    margin: 0;
+    padding: .9em 0;
+}
+
+/* About Page Styles */
+#about {
+    display: inline-flex;
+    margin: 0 auto;
+    align-self: center;
+}
+
+main.about {
+    display: flex;
+}
+
+div.about {
+    padding: 3em 0;
+    width: 20em;
+}
+
+footer.about {
+    position: fixed;
+    bottom: 0%;
+    width: 100%;
+}
+
+/* Contact Page Styles*/
+
+h1.contact {
+    padding-top: 3em;
+    text-align: center;
+}
+
+h2.contact { 
+    text-align: center;
+}
+
+footer.contact {
+    position: fixed;
+    bottom: 0%;
+    width: 100%;
 }
